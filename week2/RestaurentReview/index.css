@@ -8,7 +8,7 @@ li{
     margin-right: 15px;
     list-style-type: none;
 }
-section{
+.mainSection{
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
@@ -27,4 +27,13 @@ img{
 }
 p{
     margin-top: -3px;
+}
+div{
+ margin: 10px;
+}
+input{
+    margin: 5px;
+}
+iframe{
+    margin-bottom: 5px;
 }
