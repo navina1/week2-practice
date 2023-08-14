@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Background Properties</title>
+    <style>
+        /* Add some basic styles for demonstration purposes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 300px;
+            height: 200px;
+            border: 2px solid #333;
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Demonstrating various CSS Background Properties -->
+
+    <!-- Background Color -->
+    <div class="box" style="background-color: #f0f0f0;">
+        Background Color
+    </div>
+
+    <!-- Background Image -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-size: cover;">
+        Background Image
+    </div>
+
+    <!-- Background Image (With Repeat) -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-repeat: repeat;">
+        Background Image (With Repeat)
+    </div>
+
+    <!-- Background Image (With Position) -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-position: center;">
+        Background Image (With Position)
+    </div>
+
+    <!-- Background Image (With Fixed Position) -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-attachment: fixed;">
+        Background Image (With Fixed Position)
+    </div>
+
+    <!-- Background Image (Multiple Images) -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'), url('pattern.png'); background-repeat: no-repeat, repeat-y;">
+        Multiple Background Images
+    </div>
+
+    <!-- Background Size -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-size: contain;">
+        Background Size (Contain)
+    </div>
+
+    <!-- Background Size (With Percentage) -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-size: 50%;">
+        Background Size (50%)
+    </div>
+
+    <!-- Background Origin -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-origin: content-box;">
+        Background Origin (Content Box)
+    </div>
+
+    <!-- Background Origin (Padding Box) -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-origin: padding-box;">
+        Background Origin (Padding Box)
+    </div>
+
+    <!-- Background Origin (Border Box) -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-origin: border-box;">
+        Background Origin (Border Box)
+    </div>
+
+    <!-- Background Clip -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-clip: content-box;">
+        Background Clip (Content Box)
+    </div>
+
+    <!-- Background Clip (Padding Box) -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-clip: padding-box;">
+        Background Clip (Padding Box)
+    </div>
+
+    <!-- Background Clip (Border Box) -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-clip: border-box;">
+        Background Clip (Border Box)
+    </div>
+
+    <!-- Background Attachment (Local) -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-attachment: local;">
+        Background Attachment (Local)
+    </div>
+
+    <!-- Background Attachment (Scroll) -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-attachment: scroll;">
+        Background Attachment (Scroll)
+    </div>
+
+    <!-- Background Attachment (Fixed) -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-attachment: fixed;">
+        Background Attachment (Fixed)
+    </div>
+
+    <!-- Background Attachment (Local), Background Origin (Border Box) -->
+    <div class="box" style="background-image: url('./greekhouse.jpg'); background-attachment: local; background-origin: border-box;">
+        Background Attachment (Local), Background Origin (Border Box)
+    </div>
+
+</body>
+</html>

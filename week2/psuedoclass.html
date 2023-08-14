@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo-Classes</title>
+    <style>
+        /* Pseudo-class :link */
+        a:link {
+            color: blue;
+        }
+
+        /* Pseudo-class :visited */
+        a:visited {
+            color: purple;
+        }
+
+        /* Pseudo-class :hover */
+        a:hover {
+            background-color: yellow;
+        }
+
+        /* Pseudo-class :active */
+        a:active {
+            color: red;
+        }
+
+        /* Pseudo-class :focus */
+        input:focus {
+            border: 2px solid green;
+        }
+
+        /* Pseudo-class :first-child */
+        li:first-child {
+            font-weight: bold;
+        }
+
+        /* Pseudo-class :last-child */
+        li:last-child {
+            font-style: italic;
+        }
+
+        /* Pseudo-class :nth-child(odd) */
+        li:nth-child(odd) {
+            color: green;
+        }
+
+        /* Pseudo-class :nth-child(even) */
+        li:nth-child(even) {
+            color: blue;
+        }
+
+        /* Pseudo-class :not() */
+        p:not(.exclude) {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <p>Click the links to see the effects of :link and :visited pseudo-classes.</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <input type="text" placeholder="Click here to see the effect of :focus">
+    <p class="exclude">This paragraph is excluded from :not() pseudo-class effect.</p>
+</body>
+</html>

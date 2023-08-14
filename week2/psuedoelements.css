@@ -1,0 +1,26 @@
+ /* Pseudo-element ::before */
+ p::before {
+    content: "Before content - ";
+    font-weight: bold;
+    color: red;
+}
+p::after{
+    content: "After content - ";
+    font-weight: bold;
+    color: blue;
+}
+
+/* Pseudo-element ::first-line */
+.first-line::first-line {
+    text-transform: uppercase;
+}
+/* Pseudo-element ::first-letter */
+.first-letter::first-letter {
+    font-size: 2rem;
+    color: purple;
+}
+ /* Pseudo-element ::selection */
+ p::selection {
+    background-color: yellow;
+    color: black;
+}
